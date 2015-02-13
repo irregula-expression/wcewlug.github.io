@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Walchand Linux Users' Group
 locale: en_US
-description: Describe your website here.
+description: Community | Knowledge | Share
 logo: site-logo.png
 search: true
 url: http://localhost:4000
@@ -31,13 +31,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Walchand Linux Users' Group
+  avatar: site-logo.png
+  email: wce.wlugclub@gmail.com
   disqus-shortname:
   twitter: #username
-  facebook: #username
-  github: #username
+  facebook: wlugclub
+  github: wcewlug
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
