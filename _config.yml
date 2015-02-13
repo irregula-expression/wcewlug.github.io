@@ -5,7 +5,7 @@ locale: en_US
 description: Community | Knowledge | Share
 logo: site-logo.png
 search: true
-url: http://wcewlug.org/
+url: http://wcewlug.org
 
 # Jekyll configuration
 
