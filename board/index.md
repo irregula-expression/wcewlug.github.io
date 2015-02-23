@@ -60,8 +60,8 @@ Varsha Yadav
 Technical Advisor  
 email-id:varshayadav257@gmail.com 
 
-Dhanashri Patil
-Technical Advisor
+Dhanashri Patil  
+Technical Advisor  
 email-id:dhanashripatil44@gmail.com 
 
 Suvarna Mule  
