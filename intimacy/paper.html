@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link href="css/style1.css" type="text/css" rel="stylesheet">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/bootstrap.theme.min.css" rel="stylesheet">
+         <link rel="shortcut icon" href="img/favicon.ico"/>
+        
+
+        <style>
+        body{margin:1%;}
+        </style>
+               
+        <title>Intimacy 2k15-16</title>
+        </head>
+    
+    <body>
+   <div class="jumbotron">
+  
+      <center>
+  <h2>Walchand Linux Users' Group <small>Intimacy 2k15-16 <br>Online Examaination</small></h2>
+         
+</center>
+      
+      
+    
+               
+    <div class="row">
+            
+            <div class="col-md-3 pull-right">
+        
+            <h2><span class="label label-danger" id="timer"></span></h2>
+            
+        </div>
+        
+       
+       </div>
+</div>
+        <div class="jumbotron" style="margin-top=2%;">
+        <center>
+            Exam Paper URL Will Be Here.....
+            </center>
+        </div>
+        
+        
+        <script type="text/javascript">
+var seconds = 1320;
+function secondPassed() {
+    var minutes = Math.round((seconds - 30)/60);
+    var remainingSeconds = seconds % 60;
+    if (remainingSeconds < 10) {
+        remainingSeconds = "0" + remainingSeconds; 
+    }
+    document.getElementById('timer').innerHTML = minutes + ":" + remainingSeconds;
+    if (seconds == 0) {
+	
+        clearInterval(countdownTimer);
+        document.getElementById('countdown').innerHTML = "Buzz Buzz";
+    } else {
+        seconds--;
+    }
+}
+ 
+var countdownTimer = setInterval('secondPassed()', 1000);
+
+</script>
+</body>
+</html>
